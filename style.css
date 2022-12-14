@@ -1,0 +1,93 @@
+body {
+  background-color: #FEF5ED;  /* Background color */
+  font-family: "Lato", sans-serif;
+  color: rgb(50,50,50);
+  font-size: 17px;
+}
+
+
+
+
+h1, h2, h3 {
+  font-family: "Lato", sans-serif;
+  color: #4E6C50;
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #4E6C50;
+  transition: color 0.3s ease;
+  border-radius: 5px;
+}
+a:hover {
+  color: #AA8B56;
+  text-decoration: none;
+  font-style: italic;
+}
+
+
+#button-square {
+  background-color: #FEF5ED;
+  padding: 5px;
+}
+
+.img-circle {
+  width: 150px;
+  height: auto;
+  border-radius:50%;
+}
+
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.icon-square {
+  width: 10px;
+  height: auto;
+}
+
+.card-white {
+  text-align: center;
+  margin: 20px auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0px 10px 30px rgba(1,0,0,0.1);
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+
+
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 20px 20px; /* add som left/right padding between list items */
+}
